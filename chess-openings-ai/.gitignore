@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+*.venv
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Poetry
+poetry.lock
+
+# Logs
+*.log
+
+# Gemini API key (if applicable)
+.env

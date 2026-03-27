@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "chess-openings-ai"
+version = "0.1.0"
+description = ""
+authors = ["Travis John Villanueva <vtravisjohn@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.38.0"
+langchain = "*"
+google-cloud-aiplatform = "^1.67.1"
+fastapi = "^0.95.0"
+uvicorn = "^0.21.0"
+pydantic = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
