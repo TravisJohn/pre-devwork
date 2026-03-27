@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "jumpstart-proj"
+version = "1"
+description = "streamlit project to jumpstart analysts"
+authors = ["Travis Villanueva"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.25.0"
+langchain = "^0.2.16"
+openai = "^1.43.1"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.2"
+numpy = "^1.24.0"
+matplotlib = "^3.9.2"
+langchain-experimental = "^0.0.65"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
